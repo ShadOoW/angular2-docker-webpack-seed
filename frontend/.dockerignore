@@ -1,0 +1,6 @@
+dist/
+node_modules/
+reports/
+typings/
+**/*.spec.ts
+npm-debug.log

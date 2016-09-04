@@ -1,0 +1,7 @@
+src/**/*.js
+src/**/*.css
+typings/
+dist/
+reports/
+node_modules/
+npm-debug.log

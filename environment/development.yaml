@@ -1,0 +1,15 @@
+frontend:
+ image: justdoit_frontend:latest
+ container_name: justdoit-frontend-container
+ working_dir: /iprice/justdoit/src
+ hostname: frontend
+ ports:
+   - 8180:8180
+ environment:
+   - SRC_PATH=/code/justdoit/src
+   - NGINX_HOST=localhost
+   - NGINX_PORT=80
+ volumes:
+   - ./../frontend:/code/justdoit/src
+ command: /bin/bash -c 'cd $$SRC_PATH; npm install; npm run typings; npm run watch;'
+ restart: always

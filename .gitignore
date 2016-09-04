@@ -1,0 +1,11 @@
+.DS_Store
+.tmp
+**/npm-debug.log
+node_modules
+vendor
+dist
+experiments
+typings
+frontend/src/**/*.js
+frontend/src/**/*.css
+.idea
