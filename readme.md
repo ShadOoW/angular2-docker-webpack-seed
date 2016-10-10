@@ -12,6 +12,7 @@ Implemented:
 - **Src**, **Vendor** and **Pollyfills** are split into 3 files.
 
 Coming Soon:
+- Webpack / Angular2 (AoT) Ahead of time compilation
 - Jasmin and Karma tests.
 - Default example app with a Service and RxJS instead of the actual hello world.
 
