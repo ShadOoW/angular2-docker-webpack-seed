@@ -1,13 +1,13 @@
 frontend:
  image: justdoit_frontend:latest
  container_name: justdoit-frontend-container
- working_dir: /iprice/justdoit/src
+ working_dir: /code/justdoit/src
  hostname: frontend
  ports:
    - 8180:8180
  environment:
    - SRC_PATH=/code/justdoit/src
-   - NGINX_HOST=localhost
+   - NGINX_HOST=localhos
    - NGINX_PORT=80
  volumes:
    - ./../frontend:/code/justdoit/src
