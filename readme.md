@@ -4,7 +4,7 @@
 Angular2 RC6 Seed based on **docker-compose** and **webpack** bundler.
 
 Implemented:
-- Latest Angular2 Version (**RC6**)
+- Latest Angular2 Version (**2.0.2 (stable)**)
 - Dev/Prod Environments **docker/npm**.
 - Webpack **Watch** (detect change, compile, reload browser).
 - Component can use **SCSS** directly ex: ```styles: [require('./app.scss')]```
