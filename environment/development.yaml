@@ -1,5 +1,5 @@
 frontend:
- image: justdoit_frontend:latest
+ build: ./../frontend
  container_name: justdoit-frontend-container
  working_dir: /code/justdoit/src
  hostname: frontend
@@ -11,5 +11,5 @@ frontend:
    - NGINX_PORT=80
  volumes:
    - ./../frontend:/code/justdoit/src
- command: /bin/bash -c 'cd $$SRC_PATH; npm install; npm run typings; npm run watch;'
+ command: /bin/bash -c 'cd $$SRC_PATH; npm install; npm run watch;'
  restart: always
