@@ -1,13 +1,14 @@
 # `Angular2/Webpack/Docker Seed Project`
 
 ### Description:
-Angular2 RC6 Seed based on **docker-compose** and **webpack** bundler.
+Angular2 2.2.3 Seed based on **docker-compose** and **webpack** bundler.
 
 Implemented:
-- Latest Angular2 Version (**2.0.2 (stable)**)
+- Latest Angular2 Version (**2.2.3 (stable)**)
 - Dev/Prod Environments **docker/npm**.
 - Webpack **Watch** (detect change, compile, reload browser).
 - Component can use **SCSS** directly ex: ```styles: [require('./app.scss')]```
+- Typings from NPM (ex: @types/jquery).
 - **Code Style checker** and **TS/JS Linters**.
 - **Src**, **Vendor** and **Pollyfills** are split into 3 files.
 
