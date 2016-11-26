@@ -1,5 +1,5 @@
 frontend:
- image: justdoit_frontend:latest
+ build: ./../frontend
  container_name: justdoit-frontend-container
  working_dir: /code/justdoit/src
  hostname: frontend
@@ -13,5 +13,5 @@ frontend:
    - ./../frontend:/code/justdoit/src
    - ./../frontend/dist:/usr/share/nginx/html:ro
    - ./../frontend/docker-config:/tmp/justdoit
- command: /bin/bash -c 'cd $$SRC_PATH; npm run clean; npm install; npm run typings; npm run build:prod; nginx -g "daemon off;"'
+ command: /bin/bash -c 'cd $$SRC_PATH; npm run clean; npm install; npm run build:prod; nginx -g "daemon off;"'
  restart: always
