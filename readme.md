@@ -1,5 +1,8 @@
 # `Angular2/Webpack/Docker Seed Project`
 
+### Iportant
+The angular webpack configuration is deprecated in favor of [angular-cli](https://cli.angular.io/), the docker part can still be used as reference.
+
 ### Description:
 Angular2 2.2.3 Seed based on **docker-compose** and **webpack** bundler.
 
